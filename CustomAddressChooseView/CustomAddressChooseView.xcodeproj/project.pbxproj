@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D62DFBDB18F1C9FAE8B045A /* libPods-CustomAddressChooseViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0530CE1BDAC9A92427F6EC7D /* libPods-CustomAddressChooseViewTests.a */; };
+		430C1F605A14ED2AED7F4246 /* libPods-CustomAddressChooseViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47B6917F282FDC5CD31BF6 /* libPods-CustomAddressChooseViewUITests.a */; };
+		AAE07CF9207B6571007558AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE07CF8207B6571007558AA /* AppDelegate.m */; };
+		AAE07CFC207B6571007558AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE07CFB207B6571007558AA /* ViewController.m */; };
+		AAE07CFF207B6571007558AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE07CFD207B6571007558AA /* Main.storyboard */; };
+		AAE07D01207B6572007558AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE07D00207B6572007558AA /* Assets.xcassets */; };
+		AAE07D04207B6572007558AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE07D02207B6572007558AA /* LaunchScreen.storyboard */; };
+		AAE07D07207B6572007558AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE07D06207B6572007558AA /* main.m */; };
+		AAE07D11207B6572007558AA /* CustomAddressChooseViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE07D10207B6572007558AA /* CustomAddressChooseViewTests.m */; };
+		AAE07D1C207B6572007558AA /* CustomAddressChooseViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE07D1B207B6572007558AA /* CustomAddressChooseViewUITests.m */; };
+		AAE07D2D207B6768007558AA /* LFAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE07D2C207B6768007558AA /* LFAddressView.m */; };
+		AAE07D2F207B67C4007558AA /* areas.json in Resources */ = {isa = PBXBuildFile; fileRef = AAE07D2E207B67C3007558AA /* areas.json */; };
+		AAE07D32207B67F2007558AA /* AddressJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE07D31207B67F2007558AA /* AddressJSONModel.m */; };
+		AAE07D35207B6895007558AA /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE07D34207B6895007558AA /* AddressModel.m */; };
+		C850E7E912BA140995439A35 /* libPods-CustomAddressChooseView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FC0A5CF5AB3A11CAF248D7 /* libPods-CustomAddressChooseView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAE07D0D207B6572007558AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE07CEC207B6571007558AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE07CF3207B6571007558AA;
+			remoteInfo = CustomAddressChooseView;
+		};
+		AAE07D18207B6572007558AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE07CEC207B6571007558AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE07CF3207B6571007558AA;
+			remoteInfo = CustomAddressChooseView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0530CE1BDAC9A92427F6EC7D /* libPods-CustomAddressChooseViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomAddressChooseViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1097CF99263ED1D98F4C6FC7 /* Pods-CustomAddressChooseViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAddressChooseViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAddressChooseViewUITests/Pods-CustomAddressChooseViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D211C60BA6BCBE954C37A68 /* Pods-CustomAddressChooseView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAddressChooseView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAddressChooseView/Pods-CustomAddressChooseView.debug.xcconfig"; sourceTree = "<group>"; };
+		70AC01E0CCC00BA773D40D03 /* Pods-CustomAddressChooseViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAddressChooseViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAddressChooseViewUITests/Pods-CustomAddressChooseViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94FC0A5CF5AB3A11CAF248D7 /* libPods-CustomAddressChooseView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomAddressChooseView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61267822FC11DC3162F211F /* Pods-CustomAddressChooseViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAddressChooseViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAddressChooseViewTests/Pods-CustomAddressChooseViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAE07CF4207B6571007558AA /* CustomAddressChooseView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAddressChooseView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE07CF7207B6571007558AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAE07CF8207B6571007558AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAE07CFA207B6571007558AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAE07CFB207B6571007558AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAE07CFE207B6571007558AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAE07D00207B6572007558AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE07D03207B6572007558AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAE07D05207B6572007558AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE07D06207B6572007558AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAE07D0C207B6572007558AA /* CustomAddressChooseViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAddressChooseViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE07D10207B6572007558AA /* CustomAddressChooseViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAddressChooseViewTests.m; sourceTree = "<group>"; };
+		AAE07D12207B6572007558AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE07D17207B6572007558AA /* CustomAddressChooseViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAddressChooseViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE07D1B207B6572007558AA /* CustomAddressChooseViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAddressChooseViewUITests.m; sourceTree = "<group>"; };
+		AAE07D1D207B6572007558AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE07D2B207B6768007558AA /* LFAddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFAddressView.h; sourceTree = "<group>"; };
+		AAE07D2C207B6768007558AA /* LFAddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFAddressView.m; sourceTree = "<group>"; };
+		AAE07D2E207B67C3007558AA /* areas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = areas.json; sourceTree = "<group>"; };
+		AAE07D30207B67F2007558AA /* AddressJSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressJSONModel.h; sourceTree = "<group>"; };
+		AAE07D31207B67F2007558AA /* AddressJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressJSONModel.m; sourceTree = "<group>"; };
+		AAE07D33207B6895007558AA /* AddressModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
+		AAE07D34207B6895007558AA /* AddressModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressModel.m; sourceTree = "<group>"; };
+		AB18B911BC12B4A1C0C8C85C /* Pods-CustomAddressChooseViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAddressChooseViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAddressChooseViewTests/Pods-CustomAddressChooseViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB47B6917F282FDC5CD31BF6 /* libPods-CustomAddressChooseViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomAddressChooseViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1242E82C1FC3FA2E80106A6 /* Pods-CustomAddressChooseView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAddressChooseView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAddressChooseView/Pods-CustomAddressChooseView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE07CF1207B6571007558AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C850E7E912BA140995439A35 /* libPods-CustomAddressChooseView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE07D09207B6572007558AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D62DFBDB18F1C9FAE8B045A /* libPods-CustomAddressChooseViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE07D14207B6572007558AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430C1F605A14ED2AED7F4246 /* libPods-CustomAddressChooseViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C1BE7B61BC4E9260FB23180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D211C60BA6BCBE954C37A68 /* Pods-CustomAddressChooseView.debug.xcconfig */,
+				B1242E82C1FC3FA2E80106A6 /* Pods-CustomAddressChooseView.release.xcconfig */,
+				A61267822FC11DC3162F211F /* Pods-CustomAddressChooseViewTests.debug.xcconfig */,
+				AB18B911BC12B4A1C0C8C85C /* Pods-CustomAddressChooseViewTests.release.xcconfig */,
+				1097CF99263ED1D98F4C6FC7 /* Pods-CustomAddressChooseViewUITests.debug.xcconfig */,
+				70AC01E0CCC00BA773D40D03 /* Pods-CustomAddressChooseViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAE07CEB207B6571007558AA = {
+			isa = PBXGroup;
+			children = (
+				AAE07CF6207B6571007558AA /* CustomAddressChooseView */,
+				AAE07D0F207B6572007558AA /* CustomAddressChooseViewTests */,
+				AAE07D1A207B6572007558AA /* CustomAddressChooseViewUITests */,
+				AAE07CF5207B6571007558AA /* Products */,
+				7C1BE7B61BC4E9260FB23180 /* Pods */,
+				AD7C5403F3F7E4B8E524BC6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE07CF5207B6571007558AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE07CF4207B6571007558AA /* CustomAddressChooseView.app */,
+				AAE07D0C207B6572007558AA /* CustomAddressChooseViewTests.xctest */,
+				AAE07D17207B6572007558AA /* CustomAddressChooseViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE07CF6207B6571007558AA /* CustomAddressChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				AAE07D2A207B674C007558AA /* Model */,
+				AAE07D29207B6741007558AA /* AddressView */,
+				AAE07CF7207B6571007558AA /* AppDelegate.h */,
+				AAE07CF8207B6571007558AA /* AppDelegate.m */,
+				AAE07CFA207B6571007558AA /* ViewController.h */,
+				AAE07CFB207B6571007558AA /* ViewController.m */,
+				AAE07CFD207B6571007558AA /* Main.storyboard */,
+				AAE07D00207B6572007558AA /* Assets.xcassets */,
+				AAE07D02207B6572007558AA /* LaunchScreen.storyboard */,
+				AAE07D05207B6572007558AA /* Info.plist */,
+				AAE07D06207B6572007558AA /* main.m */,
+			);
+			path = CustomAddressChooseView;
+			sourceTree = "<group>";
+		};
+		AAE07D0F207B6572007558AA /* CustomAddressChooseViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE07D10207B6572007558AA /* CustomAddressChooseViewTests.m */,
+				AAE07D12207B6572007558AA /* Info.plist */,
+			);
+			path = CustomAddressChooseViewTests;
+			sourceTree = "<group>";
+		};
+		AAE07D1A207B6572007558AA /* CustomAddressChooseViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE07D1B207B6572007558AA /* CustomAddressChooseViewUITests.m */,
+				AAE07D1D207B6572007558AA /* Info.plist */,
+			);
+			path = CustomAddressChooseViewUITests;
+			sourceTree = "<group>";
+		};
+		AAE07D29207B6741007558AA /* AddressView */ = {
+			isa = PBXGroup;
+			children = (
+				AAE07D2B207B6768007558AA /* LFAddressView.h */,
+				AAE07D2C207B6768007558AA /* LFAddressView.m */,
+			);
+			path = AddressView;
+			sourceTree = "<group>";
+		};
+		AAE07D2A207B674C007558AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE07D2E207B67C3007558AA /* areas.json */,
+				AAE07D30207B67F2007558AA /* AddressJSONModel.h */,
+				AAE07D31207B67F2007558AA /* AddressJSONModel.m */,
+				AAE07D33207B6895007558AA /* AddressModel.h */,
+				AAE07D34207B6895007558AA /* AddressModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD7C5403F3F7E4B8E524BC6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FC0A5CF5AB3A11CAF248D7 /* libPods-CustomAddressChooseView.a */,
+				0530CE1BDAC9A92427F6EC7D /* libPods-CustomAddressChooseViewTests.a */,
+				AB47B6917F282FDC5CD31BF6 /* libPods-CustomAddressChooseViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE07CF3207B6571007558AA /* CustomAddressChooseView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE07D20207B6572007558AA /* Build configuration list for PBXNativeTarget "CustomAddressChooseView" */;
+			buildPhases = (
+				A61C08981EDD606838D26793 /* [CP] Check Pods Manifest.lock */,
+				AAE07CF0207B6571007558AA /* Sources */,
+				AAE07CF1207B6571007558AA /* Frameworks */,
+				AAE07CF2207B6571007558AA /* Resources */,
+				B947035C798F0704824875DE /* [CP] Embed Pods Frameworks */,
+				208A98F8165AE2AC2E55DEC7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomAddressChooseView;
+			productName = CustomAddressChooseView;
+			productReference = AAE07CF4207B6571007558AA /* CustomAddressChooseView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAE07D0B207B6572007558AA /* CustomAddressChooseViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE07D23207B6572007558AA /* Build configuration list for PBXNativeTarget "CustomAddressChooseViewTests" */;
+			buildPhases = (
+				2A450667915A00B041B0194E /* [CP] Check Pods Manifest.lock */,
+				AAE07D08207B6572007558AA /* Sources */,
+				AAE07D09207B6572007558AA /* Frameworks */,
+				AAE07D0A207B6572007558AA /* Resources */,
+				356937873D17BDBD2DA741C5 /* [CP] Embed Pods Frameworks */,
+				4B5065BD521C44B31F6E20FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE07D0E207B6572007558AA /* PBXTargetDependency */,
+			);
+			name = CustomAddressChooseViewTests;
+			productName = CustomAddressChooseViewTests;
+			productReference = AAE07D0C207B6572007558AA /* CustomAddressChooseViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAE07D16207B6572007558AA /* CustomAddressChooseViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE07D26207B6572007558AA /* Build configuration list for PBXNativeTarget "CustomAddressChooseViewUITests" */;
+			buildPhases = (
+				A68C3C770F5A9BC486727154 /* [CP] Check Pods Manifest.lock */,
+				AAE07D13207B6572007558AA /* Sources */,
+				AAE07D14207B6572007558AA /* Frameworks */,
+				AAE07D15207B6572007558AA /* Resources */,
+				DE94F40FFF5C5A303DDF07FC /* [CP] Embed Pods Frameworks */,
+				142F69065370147AB8FF7CD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE07D19207B6572007558AA /* PBXTargetDependency */,
+			);
+			name = CustomAddressChooseViewUITests;
+			productName = CustomAddressChooseViewUITests;
+			productReference = AAE07D17207B6572007558AA /* CustomAddressChooseViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE07CEC207B6571007558AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = EL;
+				TargetAttributes = {
+					AAE07CF3207B6571007558AA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AAE07D0B207B6572007558AA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AAE07CF3207B6571007558AA;
+					};
+					AAE07D16207B6572007558AA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AAE07CF3207B6571007558AA;
+					};
+				};
+			};
+			buildConfigurationList = AAE07CEF207B6571007558AA /* Build configuration list for PBXProject "CustomAddressChooseView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE07CEB207B6571007558AA;
+			productRefGroup = AAE07CF5207B6571007558AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE07CF3207B6571007558AA /* CustomAddressChooseView */,
+				AAE07D0B207B6572007558AA /* CustomAddressChooseViewTests */,
+				AAE07D16207B6572007558AA /* CustomAddressChooseViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE07CF2207B6571007558AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE07D04207B6572007558AA /* LaunchScreen.storyboard in Resources */,
+				AAE07D01207B6572007558AA /* Assets.xcassets in Resources */,
+				AAE07D2F207B67C4007558AA /* areas.json in Resources */,
+				AAE07CFF207B6571007558AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE07D0A207B6572007558AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE07D15207B6572007558AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		142F69065370147AB8FF7CD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomAddressChooseViewUITests/Pods-CustomAddressChooseViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		208A98F8165AE2AC2E55DEC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomAddressChooseView/Pods-CustomAddressChooseView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A450667915A00B041B0194E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomAddressChooseViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		356937873D17BDBD2DA741C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomAddressChooseViewTests/Pods-CustomAddressChooseViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B5065BD521C44B31F6E20FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomAddressChooseViewTests/Pods-CustomAddressChooseViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A61C08981EDD606838D26793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomAddressChooseView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68C3C770F5A9BC486727154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomAddressChooseViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B947035C798F0704824875DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomAddressChooseView/Pods-CustomAddressChooseView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE94F40FFF5C5A303DDF07FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomAddressChooseViewUITests/Pods-CustomAddressChooseViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE07CF0207B6571007558AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE07CFC207B6571007558AA /* ViewController.m in Sources */,
+				AAE07D2D207B6768007558AA /* LFAddressView.m in Sources */,
+				AAE07D07207B6572007558AA /* main.m in Sources */,
+				AAE07CF9207B6571007558AA /* AppDelegate.m in Sources */,
+				AAE07D35207B6895007558AA /* AddressModel.m in Sources */,
+				AAE07D32207B67F2007558AA /* AddressJSONModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE07D08207B6572007558AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE07D11207B6572007558AA /* CustomAddressChooseViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE07D13207B6572007558AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE07D1C207B6572007558AA /* CustomAddressChooseViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE07D0E207B6572007558AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE07CF3207B6571007558AA /* CustomAddressChooseView */;
+			targetProxy = AAE07D0D207B6572007558AA /* PBXContainerItemProxy */;
+		};
+		AAE07D19207B6572007558AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE07CF3207B6571007558AA /* CustomAddressChooseView */;
+			targetProxy = AAE07D18207B6572007558AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAE07CFD207B6571007558AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE07CFE207B6571007558AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAE07D02207B6572007558AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE07D03207B6572007558AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE07D1E207B6572007558AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAE07D1F207B6572007558AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE07D21207B6572007558AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D211C60BA6BCBE954C37A68 /* Pods-CustomAddressChooseView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P3U25822;
+				INFOPLIST_FILE = CustomAddressChooseView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YJGX.CustomAddressChooseView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE07D22207B6572007558AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1242E82C1FC3FA2E80106A6 /* Pods-CustomAddressChooseView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P3U25822;
+				INFOPLIST_FILE = CustomAddressChooseView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YJGX.CustomAddressChooseView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAE07D24207B6572007558AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61267822FC11DC3162F211F /* Pods-CustomAddressChooseViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P3U25822;
+				INFOPLIST_FILE = CustomAddressChooseViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YJGX.CustomAddressChooseViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomAddressChooseView.app/CustomAddressChooseView";
+			};
+			name = Debug;
+		};
+		AAE07D25207B6572007558AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB18B911BC12B4A1C0C8C85C /* Pods-CustomAddressChooseViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P3U25822;
+				INFOPLIST_FILE = CustomAddressChooseViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YJGX.CustomAddressChooseViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomAddressChooseView.app/CustomAddressChooseView";
+			};
+			name = Release;
+		};
+		AAE07D27207B6572007558AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1097CF99263ED1D98F4C6FC7 /* Pods-CustomAddressChooseViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P3U25822;
+				INFOPLIST_FILE = CustomAddressChooseViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YJGX.CustomAddressChooseViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomAddressChooseView;
+			};
+			name = Debug;
+		};
+		AAE07D28207B6572007558AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AC01E0CCC00BA773D40D03 /* Pods-CustomAddressChooseViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P3U25822;
+				INFOPLIST_FILE = CustomAddressChooseViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YJGX.CustomAddressChooseViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomAddressChooseView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE07CEF207B6571007558AA /* Build configuration list for PBXProject "CustomAddressChooseView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE07D1E207B6572007558AA /* Debug */,
+				AAE07D1F207B6572007558AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE07D20207B6572007558AA /* Build configuration list for PBXNativeTarget "CustomAddressChooseView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE07D21207B6572007558AA /* Debug */,
+				AAE07D22207B6572007558AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE07D23207B6572007558AA /* Build configuration list for PBXNativeTarget "CustomAddressChooseViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE07D24207B6572007558AA /* Debug */,
+				AAE07D25207B6572007558AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE07D26207B6572007558AA /* Build configuration list for PBXNativeTarget "CustomAddressChooseViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE07D27207B6572007558AA /* Debug */,
+				AAE07D28207B6572007558AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAE07CEC207B6571007558AA /* Project object */;
+}
